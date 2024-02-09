@@ -22,11 +22,11 @@ func main() {
 
 	for i := 1; i <= n; i++ {
 		if isSquare(i) && isCube(i) {
-			fmt.Println("squarecube \n")
+			fmt.Println("SquareCube \n")
 		} else if isSquare(i) {
-			fmt.Println("square \n")
+			fmt.Println("Square \n")
 		} else if isCube(i) {
-			fmt.Println("cube \n")
+			fmt.Println("Cube \n")
 		} else {
 			fmt.Println(i)
 		}
